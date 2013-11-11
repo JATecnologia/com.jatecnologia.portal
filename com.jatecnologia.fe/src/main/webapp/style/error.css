@@ -1,0 +1,75 @@
+div.header ul {display:none;}
+
+div.content {
+	height: auto;
+	padding-bottom:20px;
+}
+
+.boxAzul {
+	color: #FFFFFF;
+	margin: 50px 0 20px;
+}
+
+.boxAzul h1 {
+	font-size:24px;
+	font-weight:bold;
+}
+
+.boxAzul .aviso {
+	background: url("../images/error.png") no-repeat scroll 0 0 transparent;
+	height: 20px;
+	margin: 20px 0 0;
+	padding: 5px 0 0 30px;
+}
+
+.boxBusca {
+	border: 1px solid #E7E7E7;
+	font-size: 12px;
+	margin: 20px 0;
+	padding: 20px;
+}
+
+.boxBusca span {
+	display: inline-block;
+	height: 25px;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+}
+
+.boxBusca .inputContainer {
+	background: url("../images/form/bg_search.png") no-repeat scroll 0 0 transparent;
+	border: medium none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	height: 32px;
+	overflow: hidden;
+	padding: 5px 0 0 40px;
+	width: 380px;
+}
+
+.boxBusca .inputContainer .buscaTxt {
+	background: url("../images/form/txt_procurar.png") no-repeat scroll 0 50% transparent;
+	border: medium none;
+	color: #333333;
+	margin: 3px 0 0;
+	width: 370px;
+}
+
+.boxBusca .inputContainer .buscaTxt.semBG {background:none;}
+
+.boxBusca .btnBusca {
+	background: url("../images/form/btn_buscar.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: 37px;
+	margin: 0 0 0 -3px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 34px;
+}
+
+a {
+	color:#31508c;
+	font-weight:bold;
+	text-decoration:underline;
+}
