@@ -1,0 +1,204 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<!-- Start Footer -->    
+<div id="footer">
+	<!-- Start Footer Top -->
+	<div id="footertop">
+    
+    	<div class="footerwrap">
+    		<!-- Start Latest Tweets -->
+            <div id="latest-tweets">
+                <div id="twittertitle">Latest Tweets</div>
+                <div id="twitterbody"></div>
+            </div>
+            <!-- End Latest Tweets -->
+    		<!-- Start Useful Links -->
+            <div id="useful_links">
+                <div id="usefultitle">Latest Tweets</div>
+                <div id="usefulbody">
+                
+                	<ul>
+                    
+                    	<li><a href="#" title="">Lorem ipsum dolor sit </a></li>
+                        <li><a href="#" title="">Maecenas non ipsum nunc</a></li>
+                        <li><a href="#" title="">Lorem ipsum dolor </a></li>
+                        <li><a href="#" title="">Maecenas non ipsum </a></li>
+                        <li><a href="#" title="">Lorem ipsum dolor sit </a></li>
+                        <li><a href="#" title="">Maecenas non ipsum nunc</a></li>
+                        <li><a href="#" title="">Lorem ipsum dolor </a></li>
+                        <li><a href="#" title="">Maecenas non ipsum </a></li>
+                        <li><a href="#" title="">Lorem ipsum dolor sit </a></li>
+                        <li><a href="#" title="">Maecenas non ipsum nunc</a></li>
+                    
+                    </ul>
+                
+                </div>
+            </div>
+            <!-- End Useful Links -->
+    		<!-- Start Testimonials -->
+            <div id="latest-testimonial">
+                <div id="testimonialtitle">Latest Testimonials</div>
+                <div id="testimonialbody">
+                	<!-- Starting simple slider -->
+                    <div id="simpleslider">
+                            <!-- Slide 1 -->
+                            <div class="current">
+                                <h6>Title 1</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc, nec sagittis tellus. Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc</p>
+                            </div>
+                            <!-- End Slide 1 -->
+                            <!-- Slide 2 -->
+                            <div>
+                                <h6>iusdhfisd sdf</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc, nec sagittis tellus. Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc</p>
+                            </div>
+                            <!-- End Slide 2 -->
+                            <!-- Slide 3 -->
+                            <div>
+                                <h6>eco sodalirity ltd</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc, nec sagittis tellus. Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc</p>
+                            </div>
+                            <!-- End Slide 3 -->
+                            <!-- Slide 4 -->
+                            <div>
+                                <h6>asd</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc, nec sagittis tellus. Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc</p>
+                            </div>
+                            <!-- End Slide 4 -->
+                            <!-- Slide 5 -->
+                            <div>
+                                <h6>ec234234234</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc, nec sagittis tellus. Lorem ipsum dolor sit amet, consectetur elit. Maecenas non ipsum nunc</p>
+                            </div>
+                            <!-- End Slide 5 -->
+                    </div>
+                    <!-- Ending simple slider -->
+                	<div class="speachlower"></div>
+                </div>
+            </div>
+            <!-- End Latest Testimonials -->
+    	</div>
+    
+	</div>
+	<!-- End Footer Top -->
+    <div class="clear"></div>
+    <!-- Start Footer Bottom -->
+    <div id="footerbottom">
+    
+    	<div class="footerwrap">
+        
+        	<!-- Start Copyright Div -->
+            <div id="copyright">&copy;2012. J. A. Tecnologia - All rights reserved!</div>
+            <!-- End Copyright Div -->
+
+            <!-- Start Social area -->
+            <div class="socialfooter">
+                
+                <ul>
+                <li><a href="#" class="social-google"></a></li>
+                <li><a href="#" class="social-facebook"></a></li>
+                <li><a href="http://www/twitter.com/jatecnologia" class="social-twitter" target="_blank"></a></li>
+                <li><a href="#" class="social-linkedin"></a></li>
+                <li><a href="#" class="social-forrst"></a></li>
+                <li><a href="#" class="social-dribbble"></a></li>
+                </ul>
+                
+            </div>
+            <!-- End Socialarea -->
+        
+        </div>
+    
+    </div>
+    <!-- End Footer Bottom -->
+</div>
+<!-- Start Scroll To Top Div -->
+<div id="scrolltab"></div>
+<!-- End Scroll To Top Div -->
+
+	<script type="text/javascript" src="http://assets.jatecnologia.com/js/jquery/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://assets.jatecnologia.com/js/jquery/plugins/jquery.i18n.properties-min-1.0.9.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js" ></script>
+	<script type="text/javascript" src="js/twitter.js"></script>    
+	<script type="text/javascript" src="js/custom.js"></script>   
+	<script>
+		//// Start Simple Sliders ////
+		$(function() {
+			setInterval("rotateDiv()", 10000);
+		});
+			
+		function rotateDiv() {
+			var currentDiv=$("#simpleslider div.current");
+			var nextDiv= currentDiv.next ();
+			if (nextDiv.length ==0)
+				nextDiv=$("#simpleslider div:first");
+			
+			currentDiv.removeClass('current').addClass('previous').fadeOut('2000');
+			nextDiv.fadeIn('3000').addClass('current',function() {
+				currentDiv.fadeOut('2000', function () {currentDiv.removeClass('previous');});
+			});
+		
+		}
+		//// End Simple Sliders //// 
+	</script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+	    	$("a[rel^='prettyPhoto']").prettyPhoto();
+	  	});
+	</script>
+	<script type="text/javascript" charset="utf-8">
+
+		var text_default =""; //"we said,"
+	
+		jQuery.i18n.properties({
+		    name:'msg-js', 
+		    path:'properties/', 
+		    mode:'both',
+		    language:'pt', 
+		    callback: function() {
+		        // We specified mode: 'both' so translated values will be
+		        // available as JS vars/functions and as a map
+		
+		        // Accessing a simple value through the map
+		        jQuery.i18n.prop('twitter_text_default');
+		        // Accessing a value with placeholders through the map
+		        //jQuery.i18n.prop('msg_complex', 'John');
+		
+		        // Accessing a simple value through a JS variable
+		        text_default = home.title;
+		        // Accessing a value with placeholders through a JS function
+		        //alert(msg_complex('John'));
+		    }
+		});
+
+
+	
+		$(document).ready(function(){	
+			//// Start twitter settings ////
+			
+			alert(text_default);
+			
+			jQuery(function($){
+				$("#twitterbody").tweet({
+				  join_text: "auto",
+				  username: "jatecnologia",
+				  avatar_size: 48,
+				  count: 3,
+				  auto_join_text_default: twitter_text_default,
+				  auto_join_text_ed: "we",
+				  auto_join_text_ing: "we were",
+				  auto_join_text_reply: "we replied",
+				  auto_join_text_url: "we were checking out",
+				  loading_text: "loading tweets..."
+				});
+			});
+		});
+		//// End twitter settings ////
+		
+		
+		
+		
+		
+	
+	</script>		
+	<!-- End Footer -->
