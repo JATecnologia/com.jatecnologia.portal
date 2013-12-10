@@ -1,4 +1,3 @@
-com.jatecnologia
+com.jatecnologia.portal
 ================
-
-Site
+Site da Empresa
