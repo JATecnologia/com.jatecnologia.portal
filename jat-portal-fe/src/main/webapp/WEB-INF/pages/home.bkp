@@ -13,7 +13,7 @@
 	<meta name="keywords" content="tecnologia, projects, projetos, mobile" />
 	<link rel="shortcut icon" type="image/x-icon" href="http://assets.jatecnologia.com/ico/favicon.ico"> 
 	<link rel="bookmark icon" href="http://assets.jatecnologia.com/ico/favicon.ico"> 
-	<link href="style/main.css" rel="stylesheet" type="text/css">
+	<link href="resources/style/main.css" rel="stylesheet" type="text/css">
 	<meta name="apple-mobile-web-app-capable" content="yes" /> 
 	<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
@@ -31,9 +31,9 @@
 		
         <!-- Start Slider -->
         <div id="slider" class="nivoSlider">
-            <img src="images/slider-banners/slider01.jpg" alt=""/>
-            <img src="images/slider-banners/slider02.jpg" alt=""/>
-            <img src="images/slider-banners/slider03.jpg" alt=""/>
+            <img src="resources/images/slider-banners/slider01.jpg" alt=""/>
+            <img src="resources/images/slider-banners/slider02.jpg" alt=""/>
+            <img src="resources/images/slider-banners/slider03.jpg" alt=""/>
         </div>
         <!-- End Slider -->
         <!-- Start Slider HTML Captions -->
@@ -62,7 +62,7 @@
         	<div class="boxes-padding">
             
             	<div class="bti">
-                	<div class="featured-images"><img src="images/responsive-icon.png" width="72" height="53" alt="Responsive"></div>
+                	<div class="featured-images"><img src="resources/images/responsive-icon.png" width="72" height="53" alt="Responsive"></div>
                 	<div class="featured-titles">Responsive Html</div>
                 </div>
                 <div class="featured-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc, nec sagittis tellus.</div>
@@ -78,7 +78,7 @@
         	<div class="boxes-padding">
             
             	<div class="bti">
-                    <div class="featured-images"><img src="images/cleansleek-icon.png" width="66" height="53" alt="Responsive"></div>
+                    <div class="featured-images"><img src="resources/images/cleansleek-icon.png" width="66" height="53" alt="Responsive"></div>
                     <div class="featured-titles">clean & sleek</div>
                 </div>
                 <div class="featured-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc, nec sagittis tellus.</div>
@@ -94,7 +94,7 @@
         	<div class="boxes-padding">
             	
                 <div class="bti">
-                    <div class="featured-images"><img src="images/google-icon.png" width="54" height="53" alt="Responsive"></div>
+                    <div class="featured-images"><img src="resources/images/google-icon.png" width="54" height="53" alt="Responsive"></div>
                     <div class="featured-titles">cross browser</div>
                 </div>
                 <div class="featured-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc, nec sagittis tellus.</div>
@@ -125,7 +125,7 @@
                 Tuts Premium
                 <span class="titlearrow"></span>
                 </div>
-                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/latest-projects/project01.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
+                <div class="latestthreeimage"><a href="resources/images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="resources/images/latest-projects/project01.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
             <div class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc
                 <span class="textarrow"></span>
@@ -143,7 +143,7 @@
                 Themeforest
                 <span class="titlearrow"></span>
                 </div>
-                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/latest-projects/project02.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
+                <div class="latestthreeimage"><a href="resources/images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="resources/images/latest-projects/project02.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
             <div class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc
                 <span class="textarrow"></span>
@@ -161,7 +161,7 @@
                 Graphicriver
                 <span class="titlearrow"></span>
                 </div>
-                <div class="latestthreeimage"><a href="images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="images/latest-projects/project03.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
+                <div class="latestthreeimage"><a href="resources/images/latest-projects/larger-images/largeimage.jpg" rel="prettyPhoto" title="Lorem ipsum dolor sit amet"><img src="resources/images/latest-projects/project03.jpg" alt="Lorem ipsum dolor sit amet" width="305" height="132" border="0"/></a></div>
             <div class="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non ipsum nunc
                 <span class="textarrow"></span>

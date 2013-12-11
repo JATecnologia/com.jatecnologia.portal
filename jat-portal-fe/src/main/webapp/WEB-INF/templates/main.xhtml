@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                      
+<f:view contentType="text/html" xmlns="http://www.w3.org/1999/xhtml" encoding="UTF-8"
+  xmlns:ui="http://java.sun.com/jsf/facelets"
+  xmlns:h="http://java.sun.com/jsf/html" 
+  xmlns:f="http://java.sun.com/jsf/core"
+  xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+  xmlns:form="http://www.springframework.org/tags/form"
+  xmlns:spring="http://www.springframework.org/tags"
+  xmlns:p="http://primefaces.org/ui">  
+<html>
+	<h:head>	
+		<title>#{msg['home.title']}</title>
+		
+		<meta http-equiv="content-type" content="text/xhtml; charset=UTF-8" />	
+		<meta name="description" content="Web site for J. A. Tecnologia" />	
+		<meta name="keywords" content="tecnologia, projects, projetos, mobile" />
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<!-- 		<meta name="apple-mobile-web-app-status-bar-style" content="grey" />  -->
+<!-- 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> -->
+		
+<!-- 		<h:outputStylesheet name="normalize.css" library="css" /> -->
+ 		
+<!-- 		<link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css"/> -->
+		
+	<!-- 	<link rel="shortcut icon" type="image/x-icon" href="http://assets.jatecnologia.com/ico/favicon.ico">  -->
+	<!-- 	<link rel="bookmark icon" href="http://assets.jatecnologia.com/ico/favicon.ico">  -->
+	
+	
+		<h:outputStylesheet name="main.css" library="css"/>
+	</h:head>
+	
+	<body>	
+		<header>
+		 	<ui:include page="../includes/header.xhtml"/>
+		</header>
+		<ui:insert name="body"/>
+		<footer>
+		 	<ui:include page="../includes/footer.xhtml"/>
+		</footer>		  	     
+	</body>
+</html>
+</f:view>

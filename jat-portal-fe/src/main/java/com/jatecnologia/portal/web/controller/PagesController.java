@@ -1,4 +1,4 @@
-package com.jatecnologia.home.mvc.controller;
+package com.jatecnologia.portal.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +13,7 @@ public class PagesController {
 		////
 		System.out.println("blabla");
 		
-		return "pages/home.jsp";
+		return "pages/home.xhtml";
 	}
 	@RequestMapping(value="/contact-us")
 	public String showContactUs(){

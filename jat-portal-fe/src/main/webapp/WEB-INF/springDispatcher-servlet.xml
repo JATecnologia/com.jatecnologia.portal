@@ -20,12 +20,12 @@
      	http://jax-ws.dev.java.net/spring/servlet.xsd">
 
 	<mvc:annotation-driven/>
-	<mvc:resources mapping="/js/**" location="/js/" />
-	<mvc:resources mapping="/style/**" location="/style/" />
-	<mvc:resources mapping="/images/**" location="/images/" />
-	<mvc:resources mapping="/fonts/**" location="/fonts/" />
-	<mvc:resources mapping="/bundles/**" location="/bundles/" />
-	<context:component-scan base-package="com.jatecnologia.home.mvc.controller" />
+<!-- 	<mvc:resources mapping="/resources/js/**" location="/resources/js/" /> -->
+<!-- 	<mvc:resources mapping="/resources/css/**" location="/resources/css/" /> -->
+<!-- 	<mvc:resources mapping="/resources/images/**" location="/resources/images/" /> -->
+<!-- 	<mvc:resources mapping="/resources/fonts/**" location="/resources/fonts/" /> -->
+<!-- 	<mvc:resources mapping="/resources/bundles/**" location="/resources/bundles/" /> -->
+	<context:component-scan base-package="com.jatecnologia.portal.web.controller" />
 	
 <!-- 	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean"> -->
 <!-- 	    <property name="converters"> -->

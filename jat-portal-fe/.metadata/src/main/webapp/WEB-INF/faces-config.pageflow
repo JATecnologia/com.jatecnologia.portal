@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13867835811480" configfile="/jat-portal-fe/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf13867893516491" outlinks="pf13867893516492 pf13867893516493" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/home.xhtml" id="pf13867893516494" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13867893516492" path="/pages/home.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/erro.xhtml" id="pf13867893516495" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf13867893516493" path="/pages/erro.xhtml"/>
+  <links id="pf13867893516492" target="pf13867893516494" source="pf13867893516491" outcome="home" redirect="true"/>
+  <links id="pf13867893516493" target="pf13867893516495" source="pf13867893516491" outcome="error" redirect="true"/>
+</pageflow:Pageflow>
